@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <!-- HEAD -->
+  <head>
+    <title>Stars Sorter</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <script src="/_compile/src/elm/Main.elm"></script>
+  </head>
+  <!-- BODY -->
+  <body>
+    <header></header>
+    <main id="main"></main>
+    <footer></footer>
+    <!-- Embed elm app -->
+    <script>
+      var node = document.getElementById('main');
+      var app = Elm.Main.embed(node);
+    </script>
+  </body>
+</html>

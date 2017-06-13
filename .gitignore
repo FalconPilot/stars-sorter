@@ -1,0 +1,9 @@
+# Ignore compiled content and dependencies
+#
+/elm-stuff
+/node_modules
+/index.html
+
+# Ignore MacOS stuff
+#
+*.DS_Store
