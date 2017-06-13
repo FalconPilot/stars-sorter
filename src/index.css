@@ -12,12 +12,18 @@
 */
 
 body {
+  min-height: 100vh;
   margin: 0;
   background-color: var(--bg-color);
   font-family: sans-serif;
 }
 
-header, main, footer { position: relative; }
+header,
+main,
+footer {
+  position: relative;
+  width: 100%;
+}
 
 /*
 **  Flex classes
