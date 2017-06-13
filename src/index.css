@@ -1,0 +1,68 @@
+/*
+**  CSS Variables
+*/
+
+:root {
+  /* Common colors */
+  --bg-color: #333;
+}
+
+/*
+**  Standard classes
+*/
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  font-family: sans-serif;
+}
+
+header, main, footer { position: relative; }
+
+/*
+**  Flex classes
+*/
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .flex-col {
+   display: flex;
+   flex-direction: column;
+ }
+
+.flex-row.center-v,
+.flex-col.center-h {
+  align-items: center;
+}
+
+.flex-row.center-h,
+.flex-col.center-v {
+  justify-content: center;
+}
+
+.flex-row.flex-left,
+.flex-col.flex-top {
+  justify-content: flex-start;
+}
+
+.flex-row.flex-right,
+.flex-col.flex-bottom {
+  justify-content: flex-end;
+}
+
+.flex-row.flex-top,
+.flex-col.flex-left {
+  align-items: flex-start;
+}
+
+.flex-row.flex-bottom,
+.flex-col.flex-right {
+  align-items: flex-end;
+}
+
+.flex-stretch { align-items: stretch; }
+
+.flex-wrap { flex-wrap: wrap; }
